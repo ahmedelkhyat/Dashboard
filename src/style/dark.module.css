@@ -1,0 +1,78 @@
+/* Home */
+.app.dark {
+  background-color: #111;
+  color: #9c9c9c;
+}
+
+/* Sidebar */
+.app.dark div[class*="sidebar"] {
+  border-color: #333;
+}
+
+.app.dark div[class*="sidebar"] div[class*="top"] span[class*="logo"] {
+  color: #999;
+}
+
+.app.dark div[class*="sidebar"] hr {
+  border-color: #333;
+}
+
+.app.dark div[class*="sidebar"] div[class*="center"] ul li:hover {
+  background-color: #333;
+}
+
+.app.dark div[class*="sidebar"] div[class*="center"] ul li svg[class*="icon"] {
+  color: #999;
+}
+
+/* Navbar */
+.app.dark div[class*="navbar"] {
+  color: #999;
+  border-color: #333;
+}
+
+.app.dark div[class*="navbar"] div[class*="search"] {
+  border-color: gray;
+}
+
+/* Chart */
+.app.dark line[class*="chart_chart-grid"] {
+  stroke: rgba(228, 228, 228, 0.219);
+}
+
+/* MainTable */
+.app.dark div[class*="MuiTable"] {
+  background: #111;
+}
+
+.app.dark div[class*="MuiTable"] th,
+.app.dark div[class*="MuiTable"] td {
+  color: gray;
+}
+
+/* Datatable */
+.app.dark div[class*="datatable"] div[class*="MuiDataGrid-root"] {
+  color: gray;
+  border: none;
+}
+
+.app.dark
+  div[class*="datatable"]
+  div[class*="MuiDataGrid-root"]
+  div[class*="datatable_cell-with-status"],
+.app.dark
+  div[class*="datatable"]
+  div[class*="MuiDataGrid-root"]
+  div[class*="view"],
+.app.dark
+  div[class*="datatable"]
+  div[class*="MuiDataGrid-root"]
+  div[class*="delete"] {
+  color: gray;
+  border: none;
+}
+
+/* New */
+.app.dark div[class*="new_form-input"] input {
+  background-color: transparent;
+}

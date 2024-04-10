@@ -1,0 +1,88 @@
+.single {
+  display: flex;
+}
+
+.single .single-container {
+  flex: 6;
+}
+
+.single .single-container .top {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.single .single-container .top .left {
+  flex: 1;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 20px;
+  position: relative;
+}
+
+.single .single-container .top .left .edit-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  font-size: 12px;
+  color: #7451f8;
+  background-color: rgba(117, 81, 248, 0.094);
+  border-radius: 0px 0px 0px 5px;
+  cursor: pointer;
+}
+
+.single .single-container .top .left .title,
+.single .single-container .bottom .title {
+  font-size: 16px;
+  color: lightgray;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.single .single-container .top .left .item {
+  display: flex;
+  gap: 20px;
+}
+
+.single .single-container .top .left .item .item-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.single .single-container .top .left .item .details .item-title {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.single .single-container .top .left .item .details .details-item {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.single .single-container .top .left .item .details .details-item .item-key {
+  font-weight: bold;
+  color: gray;
+  margin-right: 5px;
+}
+
+.single .single-container .top .left .item .details .details-item .item-value {
+  font-weight: 300;
+}
+
+.single .single-container .top .right {
+  flex: 2;
+}
+
+.single .single-container .top .right div[class*="title"] {
+  font-size: 16px;
+  color: lightgray;
+  margin-bottom: 20px;
+}
+
+.single .single-container .bottom {
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 20px;
+  margin: 10px 20px;
+}

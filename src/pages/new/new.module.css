@@ -1,0 +1,78 @@
+.new {
+  display: flex;
+}
+
+.new .new-container {
+  flex: 6;
+}
+
+.new .new-container .top,
+.new .new-container .bottom {
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  margin: 20px;
+}
+
+.new .new-container .top .title {
+  color: lightgrey;
+  font-size: 20px;
+}
+
+.new .new-container .bottom {
+  display: flex;
+}
+
+.new .new-container .bottom .left {
+  flex: 1;
+  text-align: center;
+}
+
+.new .new-container .bottom .left .image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.new .new-container .bottom .right {
+  flex: 2;
+}
+
+.new .new-container .bottom .right form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.new .new-container .bottom .right form .form-input {
+  width: 40%;
+}
+
+.new .new-container .bottom .right form .form-input .file {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.new .new-container .bottom .right form .form-input .file .icon {
+  cursor: pointer;
+}
+
+.new .new-container .bottom .right form .form-input input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.new .new-container .bottom .right form .send-button {
+  width: 150px;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  background: teal;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
